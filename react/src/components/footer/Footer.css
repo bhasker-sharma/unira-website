@@ -1,0 +1,45 @@
+.footer {
+    background-color: #333; /* Footer background color */
+    color: white; /* Text color */
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between columns */
+    position: relative; /* Positioning */
+    bottom: 0; /* Stick footer to bottom */
+    width: 100%; /* Full width */
+}
+
+.footer-content {
+    display: flex; /* Flexbox for columns */
+    justify-content: space-between; /* Space out columns */
+    width: 100%;
+    padding: 0 20px;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.footer-column {
+    flex: 1; /* Equal width for columns */
+    margin: 0 50px; /* Space between columns */
+    min-width: 200px; /* Minimum width for responsiveness */
+}
+
+/* Specific styles for each column */
+.contact-info,
+.quick-links,
+.company-info {
+    text-align: left; /* Align text to the left */
+}
+
+.social-icons {
+    display: flex; /* Flexbox for icons */
+    gap: 10px; /* Space between icons */
+    margin-top: 10px; /* Space above icons */
+}
+
+/* This will push the footer to the bottom of the page */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height */
+}
+
