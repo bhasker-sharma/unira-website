@@ -1,47 +1,51 @@
 /* Style for the main hero section */
-.hero-section {
-  position: relative;
-  height: 100vh; /* Full viewport height */
+.web-page {
+  box-sizing: border-box;
+  padding: 40px 0px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center; /* Center-align text */
   background-image: url('../../assets/background_home.jpg');
   background-size: cover;
   background-position: center;
-  z-index: 1; /* Make sure content is above the background */
 }
 
 
 .hero-button{
   display: flex;
-  gap: 10%;
-  margin-top: 10%;
+  margin-top: 30px;
+  gap: 100px;
   justify-content: center;
 }
 
 /* Hero content - text and buttons */
-.hero-content {
-  width: 60%;
-  margin-top: 5%;
-  position: absolute;
-  top: 15%;
-  right: 10%;
-  left: 35%;
-  transform: translate(-50%, -50%); /* Centers the text */
-  color: white; /* Adjust text color */
-  z-index: 3; /* Above everything else */
+.landing-section {
+  width: 80%;
+  box-sizing: border-box;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.hero-content{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .hero-content h1 {
-  font-size: 4vw; /* Adjust heading size */
-  margin-bottom: 20px;
-  margin-right: 25%;
+  font-size: 60px; /* Adjust heading size */
+  margin: 0px;
+  padding: 0px;
 }
 .hero-content p {
-  font-size: 1.5vw;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  font-size: 20px;
 }
 
 /* Button styling */
@@ -75,39 +79,41 @@
   color: #FE9400;
 }
 
+.landing-page img {
+  width: 30%;
+  height: auto;
+} 
 
-/* Styling for the illustration image */
-  .illustration_1 {
-    position: absolute;
-    top: 20px; /* Adjusts distance from the top */
-    right: 3%; /* Moves the image 50px away from the right side */
-    width: 25vw; /* Adjust size of the illustration */
-    z-index: 2; /* Ensure the illustration stays above the background */
-  }
-
-/* 
-.row1 {
+.body-section{
+  width: 60%;
+  margin: auto;
   display: flex;
+  flex-direction: column;
+}
+
+.body-section .row{
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  margin-bottom: 40px;
-  max-width: 1200px;
-  width: 100%;
-} */
+}
+
 /* Text Card Styling */
 .text-card {
-  top: 69%;
-  right: 10%;
-  left: 24%;
-  width: 60%;
-  margin-top: 5%;
-  position: absolute;
-  max-width: 589px;
   color: #ffffff;
-  transform: translate(-50%, -50%); /* Centers the text */
-  color: white; /* Adjust text color */
-  z-index: 3;
+  width: 60%;
+}
+
+.text-card h2{
+  font-size: 32px;
+}
+
+.text-card p{
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.illustration{
+  height: 250px;
 }
 
 /* .text-card h2 {

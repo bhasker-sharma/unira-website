@@ -1,26 +1,66 @@
-import React from 'react';
-import './Home.css';
-import Navbar from '../../components/navbar/Navbar';
-import Footer from '../../components/footer/Footer';
-import illustration1 from '../../assets/img_1.png'; // Import illustration image
-import illustration2 from '../../assets/img_2.png';
+import React from "react";
+import "./Home.css";
+import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer";
+import illustration1 from "../../assets/img_1.png"; // Import illustration image
+import illustration2 from "../../assets/img_2.png";
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className="home">
       <Navbar />
 
       {/* Hero section */}
-      <div className="hero-section">
-        <img src={illustration1} alt="Illustration" className="illustration_1" />
-        
-        <div className='hero-content'>
-          <h1>Our strategies, your growth in Bussiness</h1>
-          <p>The Place wehre you get to know what's stopping you behind</p>
+      <div className="web-page">
+        <div className="landing-section">
+          <div className="hero-content">
+            <h1>Our strategies, your growth in Bussiness</h1>
+            <p>The Place wehre you get to know what's stopping you behind</p>
 
-          <div className='hero-button'>
-            <button className='services-btn'>SEE SERVICES</button>
-            <button className='contactus-btn'>CONTACT US</button>
+            <div className="hero-button">
+              <button className="services-btn">SEE SERVICES</button>
+              <button className="contactus-btn">CONTACT US</button>
+            </div>
+          </div>
+          <img
+            src={illustration1}
+            alt="Illustration"
+            className="illustration_1"
+          />
+        </div>
+
+        <div className="body-section">
+          {/* First row */}
+          <div className="row">
+            <div className="text-card">
+              <h2>Brand voice</h2>
+              <p>
+                Strengthen your brand identity with clear, consistent message
+                that resonates with your audience. Developing the brand that
+                speaks.{" "}
+              </p>
+            </div>
+            <div className="illustrations-row">
+              <img
+                src={illustration2}
+                alt="Illustration"
+                className="illustration"
+              />
+            </div>
+          </div>
+
+          {/* second row */}
+          <div className="row">
+            <div className="text-card">
+              <h2>Revinew Growth</h2>
+              <p>
+                Drive sustainable growth through, optimized strategies and
+                expert guidance.{" "}
+              </p>
+            </div>
+            <div className="illustrations-row">
+              {/* <img src={illustration3} alt="Illustration" className="illustration_3" /> */}
+            </div>
           </div>
         </div>
       </div>
@@ -28,8 +68,8 @@ const Home = () => {
       {/* Body section */}
       {/* <div className='body-section'> */}
 
-        {/* First row */}
-        {/* <div className='row1'>
+      {/* First row */}
+      {/* <div className='row1'>
           <div className='text-card'>
             <h2>Brand voice</h2>
             <p>Strengthen your brand identity with clear, consistent message that resonates with your audience. Developing the brand that speaks. </p>
@@ -39,6 +79,7 @@ const Home = () => {
 
       {/* </div> */}
 
+      {/* illustrations part that we added in page*/}
 
       <Footer />
     </div>
