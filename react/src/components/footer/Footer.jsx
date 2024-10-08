@@ -37,7 +37,15 @@ const Footer = () => {
         {/* third coloum of the footer section */}
         <div className="footer-section">
           <h3>Company Information</h3>
-          <p>Helping Businesses Grow Through Tailored Strategies And Expert Consultancy.</p>
+          <p>Helping Businesses Grow Through Tailored Strategies And Expert Consultancy.
+          At Unira, we are committed to empowering businesses by offering personalized
+          strategies that align with your unique goals. Our expert consultancy services
+          are designed to drive growth, streamline operations, and enhance your competitive
+          edge. Whether you're looking to scale your operations, optimize your digital presence,
+          or improve your business processes, we provide the insights and tools you need to succeed.
+          With our partnership, you can expect tangible results—greater market reach, increased 
+          profitability, and sustainable growth that takes your business to the next level.
+          </p>
         </div>
       </div>
         {/* last line of the footer section */}

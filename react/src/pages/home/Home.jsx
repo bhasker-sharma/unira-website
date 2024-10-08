@@ -4,6 +4,11 @@ import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import illustration1 from "../../assets/img_1.png"; // Import illustration image
 import illustration2 from "../../assets/img_2.png";
+import illustration3 from "../../assets/img_3.png";
+import illustration4 from "../../assets/img_4.png";
+import illustration5 from "../../assets/img_5.png";
+import illustration6 from "../../assets/img_6.png";
+import illustration7 from "../../assets/img_7.png";
 
 const Home = () => {
   return (
@@ -31,7 +36,7 @@ const Home = () => {
 
         <div className="body-section">
           {/* First row */}
-          <div className="row">
+          <div className="straight-row">
             <div className="text-card">
               <h2>Brand voice</h2>
               <p>
@@ -50,7 +55,7 @@ const Home = () => {
           </div>
 
           {/* second row */}
-          <div className="row">
+          <div className="reverse-row">
             <div className="text-card">
               <h2>Revinew Growth</h2>
               <p>
@@ -59,27 +64,91 @@ const Home = () => {
               </p>
             </div>
             <div className="illustrations-row">
-              {/* <img src={illustration3} alt="Illustration" className="illustration_3" /> */}
+              <img
+                src={illustration3}
+                alt="Illustration"
+                className="illustration_3"
+              />
             </div>
           </div>
-        </div>
-      </div>
 
-      {/* Body section */}
-      {/* <div className='body-section'> */}
-
-      {/* First row */}
-      {/* <div className='row1'>
-          <div className='text-card'>
-            <h2>Brand voice</h2>
-            <p>Strengthen your brand identity with clear, consistent message that resonates with your audience. Developing the brand that speaks. </p>
+          {/* Third row */}
+          <div className="straight-row">
+            <div className="text-card">
+              <h2>CAT Reduction</h2>
+              <p>
+              Minimize costs by identifying and 
+              eliminating inefficiencies in your
+              business processes.
+              </p>
+            </div>
+            <div className="illustrations-row">
+              <img
+                src={illustration4}
+                alt="Illustration"
+                className="illustration"
+              />
+            </div>
           </div>
 
-        </div> */}
+          {/* fourth row */}
+          <div className="reverse-row">
+            <div className="text-card">
+              <h2>Obstacal elimination</h2>
+              <p>
+              Drive sustainable growth through,
+              optimized strategies and expert guidance.{" "}
+              </p>
+            </div>
+            <div className="illustrations-row">
+              <img
+                src={illustration5}
+                alt="Illustration"
+                className="illustration_3"
+              />
+            </div>
+          </div>
 
-      {/* </div> */}
+          {/* Fifth row */}
+          <div className="straight-row">
+            <div className="text-card">
+              <h2>Bussiness audits</h2>
+              <p>
+              Strengthen your brand identity with a clear, consistent
+              message that resonates with your audience. Develope 
+              the brand that speaks.{" "}
+              </p>
+            </div>
+            <div className="illustrations-row">
+              <img
+                src={illustration6}
+                alt="Illustration"
+                className="illustration"
+              />
+            </div>
+          </div>
 
-      {/* illustrations part that we added in page*/}
+          {/* sixth row */}
+          <div className="reverse-row">
+            <div className="text-card">
+              <h2>Customised solution</h2>
+              <p>
+              Drive sustainable growth through,
+              optimized strategies and expert guidance.{" "}
+              </p>
+            </div>
+            <div className="illustrations-row">
+              <img
+                src={illustration7}
+                alt="Illustration"
+                className="illustration_3"
+              />
+            </div>
+          </div>
+
+
+        </div>
+      </div>
 
       <Footer />
     </div>

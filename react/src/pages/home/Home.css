@@ -89,14 +89,22 @@
   margin: auto;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  gap:60px;
+  
 }
 
-.body-section .row{
+.body-section .straight-row{
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+.body-section .reverse-row{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
 /* Text Card Styling */
 .text-card {
   color: #ffffff;
@@ -115,35 +123,11 @@
 .illustration{
   height: 250px;
 }
-
-/* .text-card h2 {
-  font-size: 40px;
-  margin-bottom: 10px;
-  font-weight: bold;
+.illustration_3{
+  width: 80%;
+  height: 100%;
 }
 
-.text-card p {
-  font-size: 20px;
-  line-height: 1.6;
-} */
-
-/* Illustration Styling
-.illustrations-row {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 60%;
-  left: 60%;
-  z-index: 3;
-}
-
-.illustration_2 {
-  max-width: 300px;
-  height: auto;
-  margin-left: 60%;
-  position: relative;
-  z-index: 2;
-} */
 
 /* Responsiveness with different size of rsolution*/
 @media (max-width: 1200px) {
