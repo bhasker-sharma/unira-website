@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div className="home">
         <Navbar />
-    <div className="Bodysection">
+    <div className="web-page">
         This is the Services section
     </div>
 

@@ -8,9 +8,9 @@ const Aboutus = () => {
   return (
     <div className="home">
         <Navbar />
-    <div className="Bodysection">
+    <div className="web-page">
         Hi hhere company information will come
-        
+
     </div>
 
       <Footer />

@@ -8,7 +8,8 @@ const Contactus = () => {
   return (
     <div className="home">
         <Navbar />
-    <div className="Bodysection">
+
+    <div className="web-page">
         Hi herre the form will come
     </div>
 
