@@ -29,13 +29,6 @@ const Contactus = () => {
 
   return (
     <div className="home">
-<<<<<<< HEAD
-        <Navbar />
-
-    <div className="web-page">
-        Hi herre the form will come
-    </div>
-=======
       <Navbar />
       <div className="contact-section">
         <div className="contact-heading">
@@ -102,7 +95,6 @@ const Contactus = () => {
           </div>
         </div>
       </div>
->>>>>>> contact-us
 
       <Footer />
     </div>
