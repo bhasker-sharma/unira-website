@@ -13,7 +13,11 @@ const Navbar = () => { //function is made
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/services">Services</Link></li>
+<<<<<<< HEAD
           <li><Link to="/aboutus">About Us</Link></li>
+=======
+          <li><Link to="/about">About Us</Link></li>
+>>>>>>> contact-us
           <li><Link to="/contactus">Contact Us</Link></li>
         </ul>
       </div>
